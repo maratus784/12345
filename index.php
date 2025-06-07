@@ -80,9 +80,6 @@ $no = 1;
         echo "<td>" . htmlspecialchars($row['waktu_kegiatan']) . "</td>";
         echo "<td>
         <tr>
-            <td><?php echo $row['id']; ?></td>
-            <td><?php echo $row['nama_kegiatan']; ?></td>
-            <td><?php echo $row['waktu_kegiatan']; ?></td>
             <td>
                 <a href="hapus.php?id=<?php echo $row['id']; ?>" class="btn btn-danger" onclick="return confirm('Yakin ingin menghapus data ini?')">Hapus</a>
                 <a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a>
